@@ -1,3 +1,5 @@
+__author__ = 'iamjalipo'
+
 import numpy
 import nltk
 from nltk.tokenize import word_tokenize
