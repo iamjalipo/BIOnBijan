@@ -4,7 +4,7 @@ from nltk.tokenize import word_tokenize
 
 class BIOnBijan:
     def __init__(self , Seq):
-        self.fileName = "test_biji.txt"
+        self.fileName = "test_Bijan.txt"
         self.Seq = Seq
         self.listOfBigrams = []
         self.bigramCounts = {}
@@ -75,7 +75,7 @@ class BIOnBijan:
 
 def Load_Bijan_corpus():
     sent = []
-    filename = "biji.txt"
+    filename = "Bijan-Corpus.txt"
 
     for line in open(filename,'r', encoding="utf-8"):   
         sent.append(line)
