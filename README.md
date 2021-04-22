@@ -7,6 +7,9 @@ The Bijankhan corpus was created by the Database Research Group at the Universit
 # [Bigram](https://en.wikipedia.org/wiki/Bigram)
 A bigram or digram is a sequence of two adjacent elements from a string of tokens, which are typically letters, syllables, or words. A bigram is an n-gram for n=2. The frequency distribution of every bigram in a string is commonly used for simple statistical analysis of text.
 
-Bigrams help provide the conditional probability of a token given the preceding token, when the relation of the conditional probability is applied
-[:](https://wikimedia.org/api/rest_v1/media/math/render/svg/f6f4c65574a1d05f21f5be89e01ee27afe2c03e6)
+# [AddOneSmoothing](https://www.youtube.com/watch?v=ebeGh8HM4Jo)
+
+Both given codes calculate the bigram probability of your Persian text based on the Bijan Khan corpus. One with 'Add One Smoothing' and another without.
+
+
 
